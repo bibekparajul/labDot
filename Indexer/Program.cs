@@ -19,7 +19,7 @@ namespace Indexer
             //Console.WriteLine("Index 6: " + c[6]);
 
 
-            MyList l = new MyList(5);
+            MyList<int> l = new MyList<int>(5);
             l[0] = 11;
             l[1] = 33;
             l[4] = 55;
@@ -28,8 +28,19 @@ namespace Indexer
             Console.WriteLine("Index0:" + l[0]);
             Console.WriteLine("Index1:" + l[1]);
             Console.WriteLine("Index4:" + l[4]);
-           
-            
+
+            MyList<string> ls = new MyList<string>(5);
+            ls[1] = "One";
+            ls[4] = "four";
+            Console.WriteLine("Index1string:" + ls[1]);
+
+
+        }
+        //generic method
+        public static void Add<T>(T a, T b)
+        {
+            Console.WriteLine(a);
+            Console.WriteLine(b);
         }
     }
 }

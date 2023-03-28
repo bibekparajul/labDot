@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace Indexer
 {
-    internal class MyList
+    internal class MyList<T>
     {
-        private int[] _arr;
+        private T[] _arr;
 
         public MyList(int size)
         {
-            _arr = new int[size];
+            _arr = new T[size];
         }
-        public int this[int idx]
+        public T this[int idx]
         {
             get
             {
