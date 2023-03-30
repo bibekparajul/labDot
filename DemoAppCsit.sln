@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Static", "Static\Static.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{8181E664-7E85-4862-97D3-DD19F47C6DDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexer", "Indexer\Indexer.csproj", "{672CAED4-B4BF-41DD-B899-DA69315D9D4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexer", "Indexer\Indexer.csproj", "{672CAED4-B4BF-41DD-B899-DA69315D9D4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
